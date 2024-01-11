@@ -1,0 +1,72 @@
+@font-face { font-family: Roboto; src: url('Roboto-Regular.ttf'); } 
+
+* {
+    font-family: Roboto;
+}
+
+.container.feature {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    height: 1080px;
+}
+
+.zone.feature {
+    padding: 500px;
+    color: white;
+    background-image: url(theater-image-background.png);
+    max-width: 100%;
+}
+
+.container.monthyearbar {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    padding: 10px;
+}
+
+.zone.monthyearbar {
+    padding: 10px;
+    color: black;
+    background-color: gray;
+}
+
+.container.main {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    padding: 10px;
+
+}
+
+.zone.main {
+    text-align: center;
+    font-size:25px;
+}
+.container.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    background-color: black;
+    color: white;
+}
+
+.zone.footer.map {
+    padding: 50px;
+}
+
+.zone.main.readmore {
+    display: grid;
+    place-items: center;
+}
+
+.readmore button{
+    background-color: yellow;
+}
+
+.scaled-image {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+}
